@@ -14,7 +14,7 @@
     "homepage": "http://github.com/bshaffer/oauth2-server-httpfoundation-bridge",
     "require":{
         "php":">=7.2.0",
-        "bshaffer/oauth2-server-php": ">=0.9",
+        "wirelane/oauth2-server-php": "dev-fix_set-status-code",
         "symfony/http-foundation": ">=5.0"
     },
     "autoload": {
