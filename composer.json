@@ -15,7 +15,7 @@
     "require":{
         "php":">=7.2.0",
         "wirelane/oauth2-server-php": "^2.0",
-        "symfony/http-foundation": "4.*"
+        "symfony/http-foundation": "^5"
     },
     "autoload": {
         "psr-0": { "OAuth2\\HttpFoundationBridge": "src/" }
