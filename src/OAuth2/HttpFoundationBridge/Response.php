@@ -72,7 +72,7 @@ class Response extends JsonResponse implements ResponseInterface
      *
      * @return object
      */
-    public function setStatusCode(int $statusCode, $text = null): object
+    public function setStatusCode(int $statusCode, ?string $text = null): object
     {
         return parent::setStatusCode($statusCode);
     }
