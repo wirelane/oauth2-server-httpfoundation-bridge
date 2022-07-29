@@ -14,7 +14,7 @@
     "homepage": "http://github.com/bshaffer/oauth2-server-httpfoundation-bridge",
     "require":{
         "php":">=7.2.0",
-        "wirelane/oauth2-server-php": "2.0.*",
+        "wirelane/oauth2-server-php": "dev-feature/SWPROD-3657_add-rfid-number",
         "symfony/http-foundation": ">=5.0"
     },
     "autoload": {
@@ -24,7 +24,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "ssh://git@github.com/wirelane/oauth2-server-php.git"
+            "url": "git@github.com:andythedandy/oauth2-server-php.git"
         }
     ]
 }
